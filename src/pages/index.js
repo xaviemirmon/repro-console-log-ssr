@@ -1,4 +1,5 @@
 import * as React from "react"
+import { consoleLog } from "../utils/consoleLog";
 
 // styles
 const pageStyles = {
@@ -127,6 +128,10 @@ const links = [
 
 // markup
 const IndexPage = () => {
+
+  consoleLog()
+
+
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
